@@ -21,8 +21,7 @@ p {
 }
 
 body {
-    /**background: hsl(225, 9%, 9%); **/
-    background: hsl(212, 19%, 15%);
+    background: hsl(220, 16%, 7%);
 }
 
 
@@ -33,7 +32,7 @@ body {
     left: 50%;
     transform:translate(-50%, -50%);
     width: 400px;
-    height: 450px;
+    height: 400px;
 
     padding: 15px;
     border-style: none;
@@ -41,7 +40,7 @@ body {
  
     flex-direction: column;
     justify-content: center;
-    background: hsl(213, 19%, 23%);
+    background: hsl(214, 20%, 23%);
     z-index: 100;
 }
 
@@ -74,7 +73,7 @@ body {
     padding: 0;
     border-radius: 25px;
     
-    box-shadow: inset -1px -200px 90px 70px hsl(213, 19%, 18%);
+    box-shadow: inset -1px -200px 90px 70px hsl(214, 25%, 17%);
 
     z-index: 0;
 }
@@ -204,6 +203,7 @@ body {
 
 .star {
     margin-bottom: 20px;
+    margin: 0 0 0 20px;
 }
 
 /** Border util **/
